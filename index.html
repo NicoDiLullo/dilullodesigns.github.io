@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <button id="contactBtn">Contact</button>
+    </header>
+
+    <div class="carousel">
+        <img src="IMG_4333.jpg" alt="Interior Image 1" style="display: block;">
+        <img src="IMG_4338.jpg" alt="Interior Image 2">
+        <img src="IMG_4340.jpg" alt="Interior Image 3">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 Interior Designer. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
